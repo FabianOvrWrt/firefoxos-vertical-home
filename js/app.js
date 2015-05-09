@@ -9,7 +9,7 @@
   var tempDivideEvery = 7;
   var tempCurrent = 0;
        // FIXME : Default Order in which Icons Should Be Placed (Permanant Saving Required using Indexed DB instead of Hardcoding)
-  const ORDER = ["Phone","Messages","Contacts","Settings","Camera","Gallery","Music","Video","Marketplace","Files","E-Mail","Calendar","Browser","Clock","FM-Radio","Usage","XYZ","Facebook","Google+","Twitter","Macaw","YouTube"];
+  const ORDER = ["Phone","Messages","Contacts","Settings","Camera","Gallery","Music","Video","Marketplace","E-Mail","Calendar","Browser","Clock","FM-Radio","Usage","XYZ"];
         // "XYZ" for Div (Please Check the  line Number 151)
   // Hidden manifest roles that we do not show
   const HIDDEN_ROLES = ['system', 'keyboard', 'homescreen', 'search', 'theme'];
