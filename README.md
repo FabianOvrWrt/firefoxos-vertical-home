@@ -1,12 +1,8 @@
-FirefoxOS Vertical Home
+FirefoxOS Vertical Home (With GaiaMod Next goodies).
 
-Prototype of a vertical homescreen for FirefoxOS.
+Based on the prototype of the vertical homescreen for FirefoxOS.
+
 Installation
-
-![2015-01-26-17-21-10](https://cloud.githubusercontent.com/assets/8279954/5899374/195e2c82-a580-11e4-9135-14bef3f5039d.png)
-![2015-01-26-17-21-20](https://cloud.githubusercontent.com/assets/8279954/5899375/1963f32e-a580-11e4-8e91-ee8970d64b05.png)
-![2015-01-26-17-21-27](https://cloud.githubusercontent.com/assets/8279954/5899376/196dc5c0-a580-11e4-95b9-bf7aeeb3ab76.png)
-![2015-01-26-17-21-33](https://cloud.githubusercontent.com/assets/8279954/5899377/1971b8a6-a580-11e4-9021-6937c8173582.png)
 
 Homescreens are currently certified apps, so you will need to build FirefoxOS to install it.
 
@@ -20,11 +16,8 @@ PRODUCTION=1 make reset-gaia
 
 3 - Enable it!
 
-Open the Settings app and navigate to Homescreens -> Vertical.
-Steps For Building :-
+*/ NOTICE */
 
-Best Part :-
+This also works installing it from the WebIDE (Firefox 36+).
 
-It is also Removeable from App Permission -> My HomeScreen -> Uninstall.
-
-
+Just clone or download the GaiaMod branch, uncompress it (if you downloaded the zip file) and add the root folder to your proyects on WebIDE. Currently debugging doesn't work.
