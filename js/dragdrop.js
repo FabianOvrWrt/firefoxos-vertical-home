@@ -2,7 +2,7 @@
 
 (function(exports) {
 
-  const activateDelay = 300;
+  const activateDelay = 600;
 
   const activeScaleAdjust = 0.4;
 

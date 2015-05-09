@@ -104,12 +104,12 @@
            tile.style.backgroundImage = "url('icons/calendar_84.png')"; 
         else if(this.descriptor.name == "Messages")
            tile.style.backgroundImage = "url('icons/sms_84.png')"; 
+        else if(this.descriptor.name == "Browser")
+           tile.style.backgroundImage = "url('icons/browser_84.png')"; 
         else if(this.descriptor.name == "FM Radio")
            tile.style.backgroundImage = "url('icons/fm_84.png')";
         else if(this.descriptor.name == "E-Mail")
            tile.style.backgroundImage = "url('icons/email_84.png')";
-        else if(this.descriptor.name == "Marketplace")
-           tile.style.backgroundImage = "url('icons/90.png')";
         else if(this.icon.search("http") == 0)   // Check if icon is already containing the address
            tile.style.backgroundImage = 'url(' + this.icon + ')';
         else                                // if no, then src = origin/icon
